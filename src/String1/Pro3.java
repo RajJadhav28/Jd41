@@ -5,8 +5,8 @@ public class Pro3 {
 	public static void main(String[] args) {
 		String s="Sachin";
 		s.concat("Tendulkar");
-		System.out.println(s);//Does not concats
-		s=s.concat("Tendulkar");//concats 
+		System.out.println(s);//Does not concat
+		s=s.concat("Tendulkar");//concat
 		System.out.println(s);
 		String s1="Sachin";//Stored in constant pool
 		String s2=new String("Sachin");//Stored in Heap Memory

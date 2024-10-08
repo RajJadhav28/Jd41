@@ -35,7 +35,7 @@ public class Pro10 {
 				String Ename=rs.getString(2);
 				double sal=rs.getDouble(3);
 				
-				t=new Trainer(EmpNo, Ename, sal);
+				t=new Trainer();
 				t.setEmpNo(EmpNo);
 				t.setEname(Ename);
 				t.setSal(sal);

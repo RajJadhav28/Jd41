@@ -5,7 +5,7 @@ public class Pro6 {
 	public static void main(String[] args) {
 		String s="Sachin Tendulkar";
 		System.out.println(s.substring(6));//will count from 6
-		System.out.println(s.substring(0,6));//will count from 6 and last index will be exclusive
+		System.out.println(s.substring(0,6));//will count till 6 and last index will be exclusive
 		String s1="Smart";
 		String s2="Training";
 		System.out.println(s1.concat(s2));

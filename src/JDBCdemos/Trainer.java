@@ -4,10 +4,10 @@ public class Trainer {
 	private int EmpNo;
 	private String Ename;
 	private double sal;
-//	public Trainer() {
-//		super();
-//		// TODO Auto-generated constructor stub
-//	}
+	public Trainer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Trainer(int empNo, String ename, double sal) {
 		//super();
 		EmpNo = empNo;

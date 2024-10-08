@@ -10,6 +10,8 @@ public class Pro1 {
 		String s3=new String(s1);
 		System.out.println(s3);
 		System.out.println(s1);
+		String s4=new String("String4");
+		System.out.println(s4);
 
 	}
 
