@@ -4,6 +4,10 @@ interface I2{
 	default void add(int a, int b) {
 		System.out.println("Addition:"+(a+b));
 	}
+	private void add1(int a, int b) {
+		System.out.println("Addition:"+(a+b));
+	}
+	
 }
 class B implements I2{
 	public void sub(int a, int b) {
