@@ -10,6 +10,10 @@ interface p20{
 		System.out.println("Default method 2");
 	}
 }
+//Accessing Default Methods
+//When a class inherits default methods with the same name from multiple 
+//interfaces, it must explicitly choose which one to call
+//The syntax InterfaceName.super.methodName() is used to resolve the ambiguity.
 class child1 implements p10, p20{
 	public void m3(){
 		p10.super.m1();

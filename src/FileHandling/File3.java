@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class File3 {
-
 	public static void main(String[] args) {
 		String path="D:\\FileHandling\\File3.txt";
 		FileReader reader;

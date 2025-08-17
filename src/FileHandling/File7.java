@@ -10,17 +10,18 @@ public class File7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		Scanner sc=new Scanner(System.in);
-//		System.out.println("Enter the sentence:");
-//		String s=sc.nextLine();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the sentence:");
+		String s=sc.nextLine();
 		
 		String path="D:\\FileHandling\\File6.txt";
 		FileWriter writer=null;
 		BufferedWriter bf=null;
 		try {
-			writer =new FileWriter(path);
+			writer =new FileWriter(path,true);
 			bf=new BufferedWriter(writer);
-			bf.write("usa");
+			bf.newLine();
+			bf.write(s);
 			bf.flush();
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();

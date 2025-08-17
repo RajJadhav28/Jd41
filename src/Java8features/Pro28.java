@@ -15,6 +15,7 @@ public class Pro28 {
 		int s=123;
 		String x="";
 		var i=1.2;
+		var r="Raj";
 		System.out.println(i);
 	}
 

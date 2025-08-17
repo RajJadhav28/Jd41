@@ -19,6 +19,8 @@ public class Pro8 {
 		}
 		System.out.println("Total no. of spaces:"+c1);
 		String[] words=s1.trim().split("\\s+");
+		//The split() method is used to divide the string into an array 
+		//of substrings based on a specified delimiter.
 		int wordcount=words.length;
 		System.out.println("Number of words:"+wordcount);
 		System.out.println("Number of charsvalues1:"+(c1+1));

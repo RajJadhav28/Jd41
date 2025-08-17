@@ -3,6 +3,7 @@ package StaticBlock;
 public class Pro2 {
 	//static method can be called directly or with class
 	int i=10;
+	static int j=20;
 	public void show() {
 		System.out.println("Show method!!!");
 	}
@@ -20,6 +21,7 @@ public class Pro2 {
 		display();
 		Pro2 obj=new Pro2();
 		obj.display1();
+		System.out.println(j);
 		
 
 	}

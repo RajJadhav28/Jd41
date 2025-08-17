@@ -11,8 +11,6 @@ class Test1 implements I{
 
 	@Override
 	public void m1() {
-		
-		
 	}
 
 	@Override
